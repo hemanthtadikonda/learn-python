@@ -41,3 +41,26 @@ if had_good_credit and not has_criminal_record:
 else:
     print("Sorry, Your not Eligible")
 
+### comparison Operation:
+
+temperature = input("Enter your current temperature: ")
+
+if int(temperature) >= 30:
+    print(" It is a hot day")
+elif int(temperature) <= 10:
+    print(" It is a Cold day")
+else:
+    print(" It is a Normal Day")
+
+###
+weight = int(input("Weight: "))
+unit = input('(L)bs or (K)gms: ')
+
+if unit.upper() == "L":
+    converted = weight * 0.45
+    print(f"your weight is {converted} killos ")
+else:
+    converted = weight / 0.45
+    print(f"your weight is {converted} lbs ")
+
+
