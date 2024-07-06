@@ -11,10 +11,11 @@ print(name,"likes",color)
 print(name + " likes " + color )
 
 ###
-birth_year = input("Enter your birth year: ")
-age = 2024 - int(birth_year)
+name = input("Please enter your name: ")
+birth_year = int(input("Enter your birth year: "))
 
-print(age)
+age = 2024 - birth_year
+print(name,"age is",age,"years now")
 
 # int()
 # float()
@@ -25,10 +26,10 @@ print(type(age))
 
 # ###
 
-weight_lbs = int(input("Enter your weight in lbs: "))
-weight_kgs = weight_lbs * 0.45
+weight_lbs = input("Enter Youe weight in Lbs: ")
+weight_kgs = 0.45 * int(weight_lbs)
 
-print("Your weight is " ,weight_kgs , "kg's")
+print("You are",weight_kgs,"Kgs")
 
 ###
 
