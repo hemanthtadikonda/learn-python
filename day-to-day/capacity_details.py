@@ -7,6 +7,7 @@ print("Disk Usage:")
 print(f"Total disk capacity: {(total // 2**30)}GB")
 print(f"Total disk used: {( used // 2**30)}GB")
 print(f"Total free disk: {(free // 2**30)}GB")
+print(f"used_percent = {(used / total) * 100}")
 
 cpu_percent = psutil.cpu_percent(interval=2)
 print(f"\nCPU usage: {cpu_percent}")
